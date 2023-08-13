@@ -160,3 +160,12 @@ input[type="radio"]{
     background-color: #bd301d;
     border: 2px solid #bd301d;
 }
+
+@media(max-width:480px){
+    .cat-img{
+        max-width: 240px;
+        max-height: 320px;
+        border-radius: 5px;
+    }
+    
+}
