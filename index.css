@@ -163,7 +163,7 @@ input[type="radio"]{
 
 @media(max-width:480px){
     .cat-img{
-        max-width: 240px;
+        max-width: 50vw;
         max-height: 320px;
         border-radius: 5px;
     }
