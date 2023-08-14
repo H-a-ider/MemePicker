@@ -121,21 +121,7 @@ input[type="radio"]{
 
 /* modal */
 
-.meme-modal{
-    display: none; /*flex when displayed*/
-    position: fixed;
-    margin: auto;
-    top: 80px;
-    left: 0;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #67595e;
-    border-radius: 5px;
-    width: 420px;
-    height: 490px;
-    background-color: #fff0ee;
-}
+
 
 .cat-img{
     max-width: 340px;
@@ -162,8 +148,24 @@ input[type="radio"]{
 }
 
 @media(max-width:480px){
+
+    .meme-modal{
+        display: none; /*flex when displayed*/
+        position: fixed;
+        margin: auto;
+        top: 80px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #67595e;
+        border-radius: 5px;
+        width: 320px;
+        height: 390px;
+        background-color: #fff0ee;
+    }
     .cat-img{
-        max-width: 50vw;
+        max-width: 320px;
         max-height: 320px;
         border-radius: 5px;
     }
